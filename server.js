@@ -25,8 +25,8 @@ db.on('error', (error) => {
     console.log(error);
 });
 
-app.use('/api/v1', userRouter);
-app.use('/api/v1', employeeRouter);
+app.use('/', userRouter);
+app.use('/', employeeRouter);
 
 app.route('/').get((req, res) => {
     res.send('<h1>Assignment 1</h1>');
