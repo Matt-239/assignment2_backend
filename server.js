@@ -11,7 +11,7 @@ const SERVER_PORT = 8089;
 app.use(express.json());
 app.use(express.urlencoded());
 
-const dbURI = 'mongodb+srv://mprice239:hOJAUbtHimv4I8x0@cluster0.cbbhvr6.mongodb.net/?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://mprice239:8511*Mongo@cluster0.cbbhvr6.mongodb.net/?retryWrites=true&w=majority';
  
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
